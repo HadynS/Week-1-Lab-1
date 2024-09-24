@@ -1,3 +1,7 @@
+// other class
+//must have pointer to rafflestorage object 
+//must have constructor and destructor to manage pointer
+
 
 
 #include <iostream>
