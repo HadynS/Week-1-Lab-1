@@ -1,11 +1,16 @@
+// main driver
+
 #include<iostream>
 #include <string>
 
 using namespace std;
 
 int main ()
-{
+{   
+    //variables
     int selection;
+
+    //do while for switch menu
     do
     {
        cout << " \n\n Welcome to the '99 Camry Raffle Generator! " << endl; 
@@ -19,6 +24,7 @@ int main ()
        cin >> selection; 
        cout << endl;
 
+       //switch menu
        switch (selection)
        {
         case '1':
@@ -36,13 +42,8 @@ int main ()
         default:
             cout << "\nInvalid choice, please make a choice from the menu" << endl;
        }
-
+    //end if 5 is selcted
     } while (selection != 5);
+    //Goodbye message
+    cout << "\n\n Thanks for playing! \n\n"; 
 }
-//Main Driver
-//To Do:
-//Menu
-//1. Make new entry
-//2. View all entries
-//3. Delete entry
-//4. Choose winner
