@@ -1,6 +1,8 @@
 #ifndef PEOPLE_H
 #define PEOPLE_H
 
+#include "RaffleStorage.h"
+
 #include <string>
 using namespace std;
 
