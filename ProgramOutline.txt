@@ -1,0 +1,27 @@
+Not to be used in actual program, just notes to help understand the program
+Raffle Program outline:
+
+Driver.cpp
+    - Reads in from txt file to populate raffle ticket
+    - Menu options for users to use program and draw raffle winner
+
+Raffle Ticket Class (Storage Class)
+    - Represents a raffle ticket
+    - Contains:
+        Ticket ID
+        Pointer to a name object
+        pointer to personal info
+    - Functions
+        Accessess and modify ticket details
+        Print tickets
+        Choose winner(randomizer)
+    Dynamically allocates an array of pointers
+
+People Class (Data Class)
+    -Stores participants name
+    -methods for retrieving name details
+
+Personal Info Class (Other Class-bottom level)
+    -Stores peronal info (address, phone number, whatever else)
+    -Methods for retrieving personal info
+
