@@ -1,5 +1,6 @@
 #include "RaffleSystem.h"
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -37,7 +38,8 @@ void RaffleSystem :: addParticipant()
     cout << "Enter participant phone number: ";
     cin >> phoneNumber;
     cout << "Enter participant address: ";
-    cin >> address;
+    cin.ignore(); 
+    getline (cin,address);
     Participant* participant = new Participant(firstName, lastName, phoneNumber, address);
     raffle.addParticipant(participant);
 }
