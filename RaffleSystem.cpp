@@ -34,7 +34,7 @@ void RaffleSystem :: addParticipant()
     cin >> firstName;
     cout << "Enter participant last name: ";
     cin >> lastName;
-    cout << "Enter participant phone numebr: ";
+    cout << "Enter participant phone number: ";
     cin >> phoneNumber;
     cout << "Enter participant address: ";
     cin >> address;
