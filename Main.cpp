@@ -34,7 +34,17 @@ int main()
                 cout << "Exiting program.\n";
                 break;
             default:
-                cout << "Invalid choice. Please try again.\n";
+                if (cin.fail()) 
+                {
+                    cout << "\n You entered something other than a number \n";
+                    cin.clear();
+                    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                }    
+                else 
+                {
+                    cout << "Invalid choice. Please try again.\n";
+                }
+                
         }
     } while (choice != 4);
     return 0;

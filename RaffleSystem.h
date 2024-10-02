@@ -3,6 +3,7 @@
 
 #include "Raffle.h"
 #include <fstream>
+#include <limits>
 
 class RaffleSystem 
 {
