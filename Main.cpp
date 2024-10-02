@@ -36,7 +36,7 @@ int main()
             default:
                 if (cin.fail()) 
                 {
-                    cout << "\n You entered something other than a number \n";
+                    cout << "\nYou entered something other than a number \n";
                     cin.clear();
                     cin.ignore(numeric_limits<streamsize>::max(), '\n');
                 }    
