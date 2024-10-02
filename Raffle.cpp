@@ -29,7 +29,7 @@ void Raffle::addParticipant(Participant* participant)
     {
         participants[participantCount++] = participant;
     } 
-    else 
+    if (participantCount >= MAX_PARTICIPANTS) 
     {
         cout << "Raffle is full. Cannot add more participants." << endl;
     }
