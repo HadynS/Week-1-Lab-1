@@ -25,18 +25,14 @@ Raffle::~Raffle()
 // Method to add a participant
 void Raffle::addParticipant(Participant* participant) 
 {
-    if (participantCount >= MAX_PARTICIPANTS) 
-    {
-        cout << "Raffle is full. Cannot add more participants." << endl;
-    }
     if (participantCount < MAX_PARTICIPANTS) 
     {
         participants[participantCount++] = participant;
     } 
-    /*else
+    else
     {
         cout << "Raffle is full. Cannot add more participants." << endl;
-    }*/
+    }
 }
 
 // Method to draw a winner
