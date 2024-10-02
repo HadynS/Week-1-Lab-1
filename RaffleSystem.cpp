@@ -48,7 +48,7 @@ void RaffleSystem :: addParticipant()
 void RaffleSystem :: drawWinner()
 {
     cout << "Drawing winnner...\n";
-    cout << "The winnner of the 1999 Toyota Corola is... " << raffle.drawWinner() << endl;
+    cout << "The winnner of the 1999 Toyota Camry is... " << raffle.drawWinner() << endl;
 }
 
 // Method to print all participants
