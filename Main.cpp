@@ -12,7 +12,7 @@ int main()
 
     do 
     {
-        cout << "Menu :\n";
+        cout << "\nMenu :\n";
         cout << "1. Add a participant (up to 3)\n";
         cout << "2. Draw a winner\n";
         cout << "3. Print all participants\n";
