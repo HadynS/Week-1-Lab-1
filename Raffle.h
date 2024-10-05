@@ -3,6 +3,7 @@
 
 #include "Participant.h"
 
+// Storage class
 class Raffle {
 public:
     Raffle();

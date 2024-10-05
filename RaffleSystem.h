@@ -5,6 +5,7 @@
 #include <fstream>
 #include <limits>
 
+// Other median class
 class RaffleSystem 
 {
     public:

@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// Data class
 class Participant {
 public:
     Participant();

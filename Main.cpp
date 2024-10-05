@@ -8,8 +8,10 @@ int main()
     RaffleSystem raffleSystem;
     int choice;
 
+    // Function to load in participants from txt file
     raffleSystem.loadParticipants();
 
+    // Menu to run program functions
     do 
     {
         cout << "\nMenu :\n";
